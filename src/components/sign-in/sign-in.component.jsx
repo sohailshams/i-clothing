@@ -25,10 +25,10 @@ handleSubmit = event => {
 }
 
 handleChange = event => {
-    const { value, name } = event.target;
+    const { name, value } = event.target;
 
-    this.setState({ [name]: value })
-}
+    this.setState({ [name]: value });
+};
 
     render() {
         return(
