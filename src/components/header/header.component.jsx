@@ -10,7 +10,7 @@ import { auth } from '../../firebase/firebase.utils';
 
 import CartIcon from '../cart-icon/cart-icon.component';
 
-import CartDropdown from '../cart-dropdown/card-dropdown-component';
+import CartDropdown from '../cart-dropdown/cart-dropdown-component';
 
 import './header.styles.scss';
 
